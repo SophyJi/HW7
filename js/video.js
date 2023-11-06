@@ -25,13 +25,13 @@ document.querySelector('#pause').addEventListener("click", function() {
 
 // Slow down video
 document.querySelector('#slower').addEventListener("click", function() {
-    video.playbackRate *= 0.5; 
+    video.playbackRate *= 0.9; 
     console.log(`New speed is ${video.playbackRate}`);
 });
 
 // Speed up video
 document.querySelector('#faster').addEventListener("click", function() {
-    video.playbackRate /= 0.5; // Increase speed to reverse the slow down
+    video.playbackRate /= 0.9; // Increase speed to reverse the slow down
     console.log(`New speed is ${video.playbackRate}`);
 });
 
